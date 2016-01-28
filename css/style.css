@@ -9,10 +9,9 @@
 	width: 100%;
 }
 .set-p{
-	font-size: 40px;
+	font-size: 30px;
 }
 .set-imagem:hover { 
-	opacity: 0.6; 
 	filter: alpha(opacity=30);
  }
  .trabalhos{
