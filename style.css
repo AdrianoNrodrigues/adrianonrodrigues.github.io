@@ -1,0 +1,105 @@
+html{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  color: #ecf0f1;
+  background: #34495e;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  padding: 0;
+  border: 0;
+}
+
+.container{
+  display: flex;
+}
+.cor{
+  width: 20%;
+  height: 1rem;
+}
+
+.verde{
+  background-color: #1abc9c;
+  }
+.laranja{
+  background-color: #e67e22;
+  }
+.roxo{
+  background-color: #9b59b6;
+  }
+.amarelo{
+  background-color: #f1c40f;
+  }
+.vermelho{
+  background-color: #e74c3c;;
+  }
+.avatar{
+  width:250px;
+  height: 250px;
+  border-radius: 100%;
+  border: 20px #ecf0f1 solid;
+}
+.image{
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.texto{
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.nome{
+  font-size:3em;
+  font-weight: bold;
+  margin: 40px 0 0 0 ;
+}
+
+.descricao{
+  font-size:2em;
+ font-weight:  i !important;
+}
+
+.descricao-completa{
+   font-size: 1.3em;
+   font-weight: 300 !important;
+   text-align: center;
+   margin-top: 0;
+}
+
+.botao-apresentacao{
+  justify-content: center;
+  margin-top: 30px;
+  }
+
+button{
+    cursor: pointer;
+    background: none;
+    color:#ecf0f1;
+    border: 6px solid #1abc9c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300 !important;
+    padding: 13px;
+    transition-duration: .25s;
+  }
+
+button:hover {
+    box-shadow:
+    0 0 0 6px #e67e22,
+    0 0 0 12px #9b59b6,
+    0 0 0 18px #f1c40f,
+    0 0 0 24px #e74c3c;
+}
+.icones{
+  width: 50px;
+  height: 50px;
+  margin: 60px 30px;
+}
+.container-icones{
+  justify-content: center;
+}
+
