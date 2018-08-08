@@ -103,3 +103,35 @@ button:hover {
   justify-content: center;
 }
 
+.trabalhos  {
+
+}
+
+.trabalhos img {
+  width: 450px;
+  height: 240px;
+
+}
+
+.trabalhos:hover {
+  filter: opacity(0.8)
+}
+
+.container-projetos {
+  
+  padding-right:10%;
+  padding-left:10%;
+  
+}
+
+.wrap-projetos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.navegacao {
+  color: white;
+}
+
