@@ -103,10 +103,6 @@ button:hover {
   justify-content: center;
 }
 
-.trabalhos  {
-
-}
-
 .trabalhos img {
   width: 450px;
   height: 240px;
@@ -133,5 +129,20 @@ button:hover {
 
 .navegacao {
   color: white;
+}
+
+@media only screen and (max-width: 800px){
+  .trabalhos img {
+    width: 100% !important; 
+    height: auto;
+  }
+
+  .container-projetos {
+  
+    padding-right:5%;
+    padding-left:5%;
+    
+  }
+
 }
 
